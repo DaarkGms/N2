@@ -87,3 +87,5 @@ def get_credit_score():
         return jsonify({'error': 'Não foi possível calcular o CREDIT_SCORE para os dados fornecidos.'}), 400
 
 
+if __name__ == '__main__':
+    app.run(debug=True)
